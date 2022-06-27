@@ -12,18 +12,22 @@ const Hero = () => {
           diego-rg
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-3xl sm:text-2xl text-xl font-bold py-2">
+          <p className="md:text-3xl sm:text-2xl text-md font-bold py-2">
             Developing the highest quality
           </p>
           <Typed
-            className="md:text-3xl sm:text-2xl text-xl font-bold pl-2 text-gray-500"
+            className="md:text-3xl sm:text-2xl text-md font-bold pl-2 text-gray-500"
             strings={["Web APPs", "Websites", "Web APIs"]}
             typeSpeed={120}
             backSpeed={140}
             loop
           />
         </div>
-        <button className="">Order Now</button>
+        <div className="flex justify-center">
+          <button className="px-4 py-2 rounded-md font-medium my-6 bg-[#00df9a] text-black">
+            Hire Now
+          </button>
+        </div>
       </div>
     </div>
   );
