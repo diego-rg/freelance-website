@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="width-full bg-[#000300] text-white py-16 px-4">
+    <section className="width-full bg-[#000300] text-white py-16 px-4">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 flex flex-col justify-center">
           <h1 className="font-bold py-2 text-xl md:text-2xl">
@@ -30,7 +30,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

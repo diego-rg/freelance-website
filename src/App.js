@@ -7,12 +7,12 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <Technologies />
       <Contact />
-    </div>
+    </main>
   );
 }
 

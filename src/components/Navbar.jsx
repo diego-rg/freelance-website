@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center md:h-24 h-16 max-w-screen-xl mx-auto px-4 text-white">
+    <nav className="flex justify-between items-center md:h-24 h-16 max-w-screen-xl mx-auto px-4 text-white">
       <h1 className="w-full md:text-3xl text-xl font-bold text-[#00df9a]">
         diego-rg
       </h1>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <li className="p-4 border-b border-b-gray-400">Contact</li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
