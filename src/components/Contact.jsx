@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="width-full bg-[#000300] text-white py-16 px-4">
+    <section className="width-full bg-gray-700 text-white py-16 px-4">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 flex flex-col justify-center">
           <h1 className="font-bold py-2 text-xl md:text-2xl">
@@ -20,7 +20,7 @@ const Contact = () => {
               type="email"
               placeholder="Contact email"
             />
-            <button className="px-4 py-2 rounded-md font-medium m-2 bg-[#00df9a] text-black">
+            <button className="px-4 py-2 rounded-md font-medium m-2 bg-[#00df9a] text-black hover:bg-[#06ffb5]">
               Contact
             </button>
           </div>

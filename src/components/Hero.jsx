@@ -24,7 +24,7 @@ const Hero = () => {
           />
         </div>
         <div className="flex justify-center">
-          <button className="px-4 py-2 rounded-md font-medium my-6 bg-[#00df9a] text-black">
+          <button className="px-4 py-2 rounded-md font-medium my-6 bg-[#00df9a] hover:bg-[#06ffb5] text-black">
             Hire Now
           </button>
         </div>
