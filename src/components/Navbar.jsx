@@ -9,16 +9,16 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center md:h-24 h-16 max-w-[1024px] mx-auto px-4 text-white">
+    <div className="flex justify-between items-center md:h-24 h-16 max-w-screen-xl mx-auto px-4 text-white">
       <h1 className="w-full md:text-3xl text-xl font-bold text-[#00df9a]">
         diego-rg
       </h1>
-      <ul className="hidden : md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Technologies</li>
-        <li className="p-4">Services</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+      <ul className="hidden md:flex">
+        <li className="p-4 text-lg">Home</li>
+        <li className="p-4 text-lg">Technologies</li>
+        <li className="p-4 text-lg">Services</li>
+        <li className="p-4 text-lg">About</li>
+        <li className="p-4 text-lg">Contact</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
@@ -30,7 +30,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full m-4 text-3xl font-bold text-[#00df9a]">
+        <h1 className="w-full m-4 md:text-3xl text-xl font-bold text-[#00df9a]">
           diego-rg
         </h1>
         <ul className="uppercase p-4">

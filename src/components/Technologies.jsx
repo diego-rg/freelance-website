@@ -5,7 +5,7 @@ import technologies from "../assets/technologies.svg";
 const Technologies = () => {
   return (
     <div className="width-full bg-white py-16 px-4">
-      <div className="max-w-[1024px] mx-auto grid md:grid-cols-2">
+      <div className="max-w-screen-lg mx-auto grid md:grid-cols-2">
         <img
           className="w-[200px] md:mx-0 mx-auto md:mb-auto mb-16 md:my4"
           src={technologies}
@@ -18,7 +18,7 @@ const Technologies = () => {
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Necessitatibus minima, perspiciatis dolorem dignissimos fugiat illo
-            tenetur fuga at in cumque temporibus ut officiis expedita ipsa et
+            tenetur fuga at in temporibus ut officiis expedita ipsa et
             magni impedit, dicta nisi.
           </p>
           <div className="flex">
